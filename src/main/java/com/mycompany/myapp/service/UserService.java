@@ -54,6 +54,8 @@ public class UserService {
         log.debug("Activating user for activation key {}", key);
         return userRepository.findOneByActivationKey(key)
             .map(user -> {
+
+                int a =10;
                 // activate given user for the registration key.
                 user.setActivated(true);
                 user.setActivationKey(null);
