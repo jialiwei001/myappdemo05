@@ -1,0 +1,6 @@
+entity cat{
+id Integer,
+name String,
+variety String,
+price Integer
+}

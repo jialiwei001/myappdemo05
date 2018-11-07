@@ -1,0 +1,8 @@
+entity Person{
+ id Integer,
+ name String,
+ sex  String,
+ age  Integer,
+ height Integer,
+ weight Integer
+}
